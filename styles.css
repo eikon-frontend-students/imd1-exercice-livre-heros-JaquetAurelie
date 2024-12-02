@@ -1,10 +1,29 @@
 body {
+  font-family: fantasy;
   background-color: #1a1a1a;
   color: white;
 }
 
 a {
-  color: white;
+  text-decoration: none;
+  color: beige;
+}
+img {
+  height: 300px;
 }
 
-/* 🦊 Compléter les styles de votre teaser  */
+.container {
+  display: flex;
+  background-color: white;
+  max-width: 600px;
+  padding: 30px;
+  background-color: rgb(17, 74, 21);
+}
+
+p {
+  margin: 10px;
+}
+h1 {
+  margin: 10px;
+  letter-spacing: 2px;
+}
